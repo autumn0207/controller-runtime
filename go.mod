@@ -28,3 +28,5 @@ require (
 	k8s.io/utils v0.0.0-20200912215256-4140de9c8800
 	sigs.k8s.io/yaml v1.2.0
 )
+
+replace github.com/go-logr/logr v0.3.0 => github.com/go-logr/logr v1.2.3
