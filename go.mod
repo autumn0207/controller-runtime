@@ -1,6 +1,6 @@
 module sigs.k8s.io/controller-runtime
 
-go 1.17
+go 1.19
 
 require (
 	github.com/evanphx/json-patch v4.9.0+incompatible
@@ -12,8 +12,8 @@ require (
 	github.com/onsi/gomega v1.27.8
 	github.com/prometheus/client_golang v1.7.1
 	github.com/prometheus/client_model v0.2.0
-	go.uber.org/goleak v1.1.10
-	go.uber.org/zap v1.15.0
+	go.uber.org/goleak v1.1.11
+	go.uber.org/zap v1.24.0
 	golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e
 	gomodules.xyz/jsonpatch/v2 v2.1.0
 	k8s.io/api v0.19.2
@@ -50,10 +50,9 @@ require (
 	github.com/prometheus/common v0.10.0 // indirect
 	github.com/prometheus/procfs v0.1.3 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	go.uber.org/atomic v1.6.0 // indirect
-	go.uber.org/multierr v1.5.0 // indirect
+	go.uber.org/atomic v1.7.0 // indirect
+	go.uber.org/multierr v1.6.0 // indirect
 	golang.org/x/crypto v0.1.0 // indirect
-	golang.org/x/lint v0.0.0-20191125180803-fdd1cda4f05f // indirect
 	golang.org/x/net v0.10.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20191202225959-858c2ad4c8b6 // indirect
 	golang.org/x/sys v0.9.0 // indirect
@@ -71,4 +70,6 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.0.1 // indirect
 )
 
-replace github.com/go-logr/zapr v0.2.0 => github.com/go-logr/zapr v1.2.4
+replace github.com/go-logr/zapr v0.2.0 => github.com/go-logr/zapr v1.2.3
+
+replace k8s.io/klog/v2 v2.2.0 => k8s.io/klog/v2 v2.80.1
