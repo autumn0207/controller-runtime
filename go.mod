@@ -30,3 +30,5 @@ require (
 )
 
 replace github.com/go-logr/logr v0.3.0 => github.com/go-logr/logr v1.2.3
+
+replace github.com/go-logr/zapr v0.3.0 => github.com/go-logr/zapr v1.2.3
